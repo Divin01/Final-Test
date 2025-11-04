@@ -8,7 +8,8 @@ import {
   Alert,
   ActivityIndicator,
   RefreshControl,
-  StatusBar
+  StatusBar,
+  TextInput
 } from 'react-native';
 import { useAuth } from '../utils/AuthContext';
 import { bookingService } from '../services/firebaseService';
